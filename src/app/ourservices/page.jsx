@@ -14,8 +14,8 @@ const Ourservices = () => {
                className="scroll-mt-24 mb-20 border-b border-gray-500"
             >
                <div className="mb-12">
-                  <h1 className="text-4xl font-bold mb-6 text-gradient">
-                     OFFICE SPACE:
+                  <h1 className="text-5xl font-bold mb-6 text-gradient">
+                     ECONOMICAL OFFICE SPACE:
                   </h1>
                   <p className="text-lg text-gray-600 mb-8">
                      Our fully-serviced private offices offer teams of all sizes
@@ -35,9 +35,12 @@ const Ourservices = () => {
 
                {/* Private Offices Subsection */}
                <div id="private-offices" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Private Offices</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Private Offices
+                        </h2>
+
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               Fully-furnished offices for individuals, teams or
@@ -55,7 +58,7 @@ const Ourservices = () => {
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVthree.jpeg"
+                           src="/images/AVten.jpg"
                            alt="Private Offices"
                            fill
                            className="object-cover"
@@ -66,17 +69,20 @@ const Ourservices = () => {
 
                {/* Office Membership Subsection */}
                <div id="office-membership" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Office Membership</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVsix.jpeg"
+                           src="/images/AVnine.jpg"
                            alt="Office Membership"
                            fill
                            className="object-cover"
                         />
                      </div>
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Office Membership
+                        </h2>
+
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               Private offices available by the day, or choose 5,
@@ -97,9 +103,9 @@ const Ourservices = () => {
 
                {/* Day Offices Subsection */}
                <div id="day-offices" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Day Offices</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">Day Offices</h2>
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               Your very own space in a shared office – available
@@ -117,7 +123,7 @@ const Ourservices = () => {
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVfive.jpeg"
+                           src="/images/AVeight.jpg"
                            alt="Day Offices"
                            fill
                            className="object-cover"
@@ -133,7 +139,7 @@ const Ourservices = () => {
                className="scroll-mt-24 mb-20  border-b border-gray-500"
             >
                <div className="mb-12">
-                  <h1 className="text-4xl font-bold mb-6 text-gradient">
+                  <h1 className="text-5xl font-bold mb-6 text-gradient">
                      Connect & Collaborate Coworking:
                   </h1>
                   <p className="text-lg text-gray-600 mb-8">
@@ -153,9 +159,11 @@ const Ourservices = () => {
 
                {/* Permanent Desk Subsection */}
                <div id="permanent-desk" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Permanent Desk</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Permanent Desk
+                        </h2>
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               A desk of your own, in a shared office or
@@ -186,23 +194,23 @@ const Ourservices = () => {
 
                {/* Coworking Membership Subsection */}
                <div id="coworking-membership" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">
-                     Coworking Membership
-                  </h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVsix.jpeg"
+                           src="/images/AVfive.jpeg"
                            alt="Coworking Membership"
                            fill
                            className="object-cover"
                         />
                      </div>
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Coworking Membership
+                        </h2>
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               Drop in and hotdesk in inspiring spaces, where you
-                              like, when you like – globally
+                              like, when you like globally
                            </li>
                            <li>
                               Available to access for 5, 10 or unlimited days
@@ -221,9 +229,12 @@ const Ourservices = () => {
 
                {/* Day Coworking Subsection */}
                <div id="day-coworking" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Day Coworking</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Day Coworking
+                        </h2>
+
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               Work for the day in a vibrant, social and
@@ -243,7 +254,7 @@ const Ourservices = () => {
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVfour.jpeg"
+                           src="/images/AVsix.jpeg"
                            alt="Day Coworking"
                            fill
                            className="object-cover"
@@ -259,8 +270,8 @@ const Ourservices = () => {
                className="scroll-mt-24 mb-20 border-b border-gray-500"
             >
                <div className="mb-12">
-                  <h1 className="text-4xl font-bold mb-6 text-gradient">
-                     Build your presence Virtual Office
+                  <h1 className="text-5xl font-bold mb-6 text-gradient">
+                     Build your presence Virtual Office:
                   </h1>
                   <p className="text-lg text-gray-600 mb-8">
                      Our virtual office services help you build a credible
@@ -277,9 +288,12 @@ const Ourservices = () => {
 
                {/* Business Address Subsection */}
                <div id="business-address" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Business Address</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Business Address
+                        </h2>
+
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               Give your business the professional address it
@@ -299,7 +313,7 @@ const Ourservices = () => {
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVsix.jpeg"
+                           src="/images/AVseven.jpeg"
                            alt="Business Address"
                            fill
                            className="object-cover"
@@ -310,17 +324,20 @@ const Ourservices = () => {
 
                {/* Virtual Office Subsection */}
                <div id="virtual-office-basic" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Virtual Office</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVsix.jpeg"
+                           src="/images/AVone.jpeg"
                            alt="Virtual Office"
                            fill
                            className="object-cover"
                         />
                      </div>
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Virtual Office
+                        </h2>
+
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               Everything included in our 'Business Address'
@@ -338,11 +355,11 @@ const Ourservices = () => {
 
                {/* Virtual Office Plus Subsection */}
                <div id="virtual-office-plus" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">
-                     Virtual Office Plus
-                  </h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Virtual Office Plus
+                        </h2>
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               A winning combination of virtual office services
@@ -360,7 +377,7 @@ const Ourservices = () => {
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVsix.jpeg"
+                           src="/images/AVtwo.jpeg"
                            alt="Virtual Office Plus"
                            fill
                            className="object-cover"
@@ -373,8 +390,8 @@ const Ourservices = () => {
             {/* Meeting Rooms Section */}
             <article id="meeting-rooms" className="scroll-mt-24 mb-20">
                <div className="mb-12">
-                  <h1 className="text-4xl font-bold mb-6 text-gradient">
-                     Bring teams together Meeting Rooms
+                  <h1 className="text-5xl font-bold mb-6 text-gradient">
+                     Bring teams together Meeting Rooms:
                   </h1>
                   <p className="text-lg text-gray-600 mb-8">
                      Our meeting rooms are the perfect setting for your next
@@ -392,9 +409,12 @@ const Ourservices = () => {
 
                {/* Meeting Room Subsection */}
                <div id="meeting-room" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Meeting Room</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Meeting Room
+                        </h2>
+
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               Select from a wide range of meeting room sizes
@@ -422,17 +442,20 @@ const Ourservices = () => {
 
                {/* Conference Room Subsection */}
                <div id="conference-room" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Conference Room</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVthree.jpeg"
+                           src="/images/AVten.jpg"
                            alt="Conference Room"
                            fill
                            className="object-cover"
                         />
                      </div>
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Conference Room
+                        </h2>
+
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               The perfect spaces to host pitches or board
@@ -453,9 +476,12 @@ const Ourservices = () => {
 
                {/* Training Room Subsection */}
                <div id="training-room" className="scroll-mt-24 mb-16">
-                  <h2 className="text-3xl font-bold mb-6">Training Room</h2>
                   <div className="grid md:grid-cols-2 gap-8">
                      <div>
+                        <h2 className="text-3xl font-bold mb-6">
+                           Training Room
+                        </h2>
+
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
                               Purpose-built training spaces with break-out areas
@@ -472,7 +498,7 @@ const Ourservices = () => {
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
-                           src="/images/AVthree.jpeg"
+                           src="/images/AVnine.jpg"
                            alt="Training Room"
                            fill
                            className="object-cover"

@@ -77,7 +77,7 @@ const Header = () => {
                   <span
                      className={`text-[2.3rem] pb-2 flex justify-end items-baseline font-extrabold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent hover:from-pink-500 hover:via-purple-600 hover:to-indigo-600 transition-all duration-300`}
                   >
-                      <span className="text-[1.5rem]"> innovations</span>
+                     <span className="text-[1.5rem]"> innovations</span>
                      {/* <span className="text-xs text-black font-normal"> */}
                      {/* prod by <span className="font-bold"> CVtoSalary</span> */}
                      {/* </span> */}
@@ -87,7 +87,7 @@ const Header = () => {
 
                {/* Navigation */}
                <nav className="hidden md:flex items-center space-x-8">
-                  {["Faq", "Pricing", "About"].map((item) => (
+                  {["ourServices", "About", "Contact"].map((item) => (
                      <Link
                         key={item}
                         href={`/${item.toLowerCase()}`}

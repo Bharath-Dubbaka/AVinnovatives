@@ -9,14 +9,16 @@ const Footer = () => {
                {/* Brand Column */}
                <div className="space-y-4">
                   <h2 className="flex flex-col text-2xl font-bold bg-gradient-to-r from-blue-900 to-pink-900 bg-clip-text text-transparent">
-                     ResumeOnFly
+                     AVinnovations
                      <span className="text-xs text-black font-normal">
-                        prod by <span className="font-bold"> CVtoSalary</span>
+                        our place,{" "}
+                        <span className="font-bold"> your money</span>
                      </span>
                   </h2>
                   <p className="text-slate-600">
-                     Create professional resumes with AI-powered tools and land
-                     your dream job.
+                     We lub what we do and therefore come up with the best
+                     possible solutions to help you get an office space faster
+                     and cheaper
                   </p>
                </div>
 
@@ -125,7 +127,7 @@ const Footer = () => {
             {/* Bottom Bar */}
             <div className="border-t mt-12 pt-8">
                <p className="text-center text-slate-600">
-                  © {new Date().getFullYear()} ResumeOnFly. All rights reserved.
+                  © {new Date().getFullYear()} AVinnovations. All rights reserved.
                </p>
             </div>
          </div>

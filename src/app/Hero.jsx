@@ -7,12 +7,10 @@ const Hero = () => {
    const [activeIndex, setActiveIndex] = useState(0);
    // Local image paths array
    const images = [
-      "/images/AVone.jpeg",
+      "/images/AVten.jpg",
+      "/images/AVnine.jpg",
+      "/images/AVeight.jpg",
       "/images/AVtwo.jpeg",
-      "/images/AVthree.jpeg",
-      "/images/AVfour.jpeg",
-      "/images/AVfive.jpeg",
-      "/images/AVsix.jpeg",
       "/images/AVseven.jpeg",
    ];
 
@@ -83,9 +81,9 @@ const Hero = () => {
 
                {/* Search Form */}
                <div className="w-fit bg-white/10 backdrop-blur-sm py-6 px-12 rounded-xl animate-fade-in-up delay-300 border border-white/20">
-                     <button className="w-[100%] text-[1.3rem] font-bold bg-[linear-gradient(135deg,#9B59B6,#3498DB)] text-white px-8 py-3 rounded-lg transition-all">
-                        CONTACT US
-                     </button>
+                  <button className="w-[100%] text-[1.3rem] font-bold bg-[linear-gradient(135deg,#9B59B6,#3498DB)] text-white px-8 py-3 rounded-lg transition-all">
+                     CONTACT US
+                  </button>
                </div>
             </div>
          </div>
