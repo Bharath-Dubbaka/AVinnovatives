@@ -219,7 +219,7 @@ const Header = () => {
                   <div className="flex items-center gap-4 relative">
                      <div className="flex items-center gap-2">
                         {user.picture ? (
-                           <img
+                           <Image
                               src={user.picture}
                               alt={user.name}
                               className="w-8 h-8 rounded-full border-2 border-indigo-200 hover:border-indigo-400 transition-colors duration-200"
