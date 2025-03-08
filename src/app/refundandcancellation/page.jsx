@@ -54,7 +54,7 @@ const RefundAndCancellation = () => {
                   customer service within same day of receiving the product. The
                   Customer Service Team after looking into your complaint will
                   take an appropriate decision. In case of any Refunds approved
-                  by the CVtoSalary, it'll take 6-8 days for the refund to be
+                  by the CVtoSalary, itll take 6-8 days for the refund to be
                   processed to the end customer
                </p>
             </div>

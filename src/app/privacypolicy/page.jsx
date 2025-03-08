@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
                <strong>
                   Please note: Since ResumeOnFly is a product of CVtoSalary,
                </strong>{" "}
-               you may see CVtoSalary's name during payment processing and other
+               you may see CVtoSalarys name during payment processing and other
                related transactions.
             </p>
             <ol className="list-decimal pl-5 mt-4 space-y-4">
@@ -113,7 +113,7 @@ const PrivacyPolicy = () => {
                   </ul>
                </li>
                <li>
-                  <strong>Children's Privacy:</strong>
+                  <strong>Childrens Privacy:</strong>
                   <p>
                      Our Services are not intended for children under the age of
                      13. We do not knowingly collect personal information from

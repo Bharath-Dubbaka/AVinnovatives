@@ -21,7 +21,7 @@ const Ourservices = () => {
                      Our fully-serviced private offices offer teams of all sizes
                      an inspiring environment to focus, collaborate, and do
                      their best work. Whether you need a single desk or a whole
-                     building, we provide office space that's flexible to your
+                     building, we provide office space thats flexible to your
                      needs and fully customisable. Available for as little as a
                      day, or as long as you need.
                   </p>
@@ -144,7 +144,7 @@ const Ourservices = () => {
                   </h1>
                   <p className="text-lg text-gray-600 mb-8">
                      Our coworking spaces are designed with collaboration in
-                     mind. They're a great place to connect with colleagues,
+                     mind. Theyre a great place to connect with colleagues,
                      clients and other like-minded businesses. Reserve a
                      permanent desk in your favourite space, or simply drop in
                      and hot desk at thousands of locations worldwide.
@@ -340,7 +340,7 @@ const Ourservices = () => {
 
                         <ul className="list-disc pl-6 space-y-4 text-gray-600 mb-8">
                            <li>
-                              Everything included in our 'Business Address'
+                              Everything included in our Business Address
                               solution plus:
                            </li>
                            <li>Access to 5 days of coworking</li>

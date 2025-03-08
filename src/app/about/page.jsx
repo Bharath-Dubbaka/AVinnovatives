@@ -134,7 +134,7 @@ const About = () => {
                         Please note: Since ResumeOnFly is a product of
                         CVtoSalary,
                      </strong>{" "}
-                     you may see CVtoSalary's name during payment processing and
+                     you may see CVtoSalarys name during payment processing and
                      other related transactions.
                   </div>
                </section>

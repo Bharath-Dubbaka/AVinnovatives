@@ -32,7 +32,7 @@ export default function HowItWorks() {
          icon: <Download className="w-12 h-12 text-orange-500" />,
          title: "Step 3: Download & Apply",
          description:
-            "Preview your polished resume with all sections perfectly formatted. Download it as a Word document, make any final tweaks, and you're ready to apply!",
+            "Preview your polished resume with all sections perfectly formatted. Download it as a Word document, make any final tweaks, and youre ready to apply!",
          bulletPoints: [
             "Professional resume preview with Edit Mode for better user experience and ease of use before final customization",
             "ATS friendly Word document download and format",
