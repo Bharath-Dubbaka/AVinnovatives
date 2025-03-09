@@ -1,13 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import BackgroundBoxesDemo from "@/components/aceternityUI/BackgroundBoxesDemo";
+import { BackgroundBeamsWithCollisionDemo } from "@/components/aceternityUI/BackgroundBeamsWithCollisionDemo";
 
 const Ourservices = () => {
    return (
-      <div className=" mt-20">
-         {/* <BackgroundBoxesDemo /> */}
-
-         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 dotted-pattern">
+      <div className=" mt-12 sm:mt-20  dotted-pattern bg-gray-50">
+         <div className="hidden sm:flex ">
+            {/* <BackgroundBoxesDemo /> */}
+            {/* <BackgroundBeamsWithCollisionDemo /> */}
+         </div>
+         <section className="px-4 sm:px-6 lg:px-28 py-16 dotted-pattern">
             {/* Office Space Section */}
             <article
                id="dedicated-office"

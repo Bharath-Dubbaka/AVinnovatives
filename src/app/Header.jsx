@@ -87,7 +87,7 @@ const Header = () => {
 
                {/* Navigation */}
                <nav className="hidden md:flex items-center space-x-8">
-                  {["ourServices", "About", "Contact"].map((item) => (
+                  {["ourServices", "Gallery", "Contact"].map((item) => (
                      <Link
                         key={item}
                         href={`/${item.toLowerCase()}`}
