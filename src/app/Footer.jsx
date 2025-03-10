@@ -172,12 +172,15 @@ const Footer = () => {
                   <ul className="space-y-3">
                      <li>
                         <div className="text-slate-600 hover:text-slate-900">
-                           +91-9909900999
+                           +91-888 503 0670
+                        </div>
+                        <div className="text-slate-600 hover:text-slate-900">
+                           +91-988 526 9630
                         </div>
                      </li>
                      <li>
                         <div className="text-slate-600 hover:text-slate-900">
-                           AV@innovations.com
+                           Veera562@gmail.com / Anandyedugani1995@gmail.com
                         </div>
                      </li>
                      {/* <li>

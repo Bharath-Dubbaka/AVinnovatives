@@ -6,9 +6,9 @@ import { BackgroundBeamsWithCollisionDemo } from "@/components/aceternityUI/Back
 const Ourservices = () => {
    return (
       <div className=" mt-12 sm:mt-20  dotted-pattern bg-gray-50">
-         <div className="hidden sm:flex ">
+         <div className="hidden sm:flex">
             {/* <BackgroundBoxesDemo /> */}
-            {/* <BackgroundBeamsWithCollisionDemo /> */}
+            <BackgroundBeamsWithCollisionDemo />
          </div>
          <section className="px-4 sm:px-6 lg:px-28 py-16 dotted-pattern">
             {/* Office Space Section */}
@@ -124,9 +124,7 @@ const Ourservices = () => {
                            <li>For teams of all sizes</li>
                         </ul>
                         <Link
-                           href="/contact"
-                           className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition"
-                        >
+                           href="/contact" className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition">
                            Book now
                         </Link>
                      </div>
@@ -387,9 +385,7 @@ const Ourservices = () => {
                            <li>Plus access to 5 days of coworking</li>
                         </ul>
                         <Link
-                           href="/contact"
-                           className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition"
-                        >
+                           href="/contact" className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition">
                            Book now
                         </Link>
                      </div>
@@ -511,9 +507,7 @@ const Ourservices = () => {
                            <li>Choose from thousands of locations worldwide</li>
                         </ul>
                         <Link
-                           href="/contact"
-                           className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition"
-                        >
+                           href="/contact" className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition">
                            Book now
                         </Link>
                      </div>

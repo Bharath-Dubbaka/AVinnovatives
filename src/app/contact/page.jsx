@@ -85,8 +85,8 @@ const Contact = () => {
                Have questions? Our team will respond within 24 hours.
             </p>
          </div>
-         <div className="flex justify-between px-20 gap-8">
-            <div className="w-[38%] py-8 px-6 ml-20 pl-20 border-l border-slate-600">
+         <div className="flex justify-between px:6 md:px-20 gap-8">
+            <div className="hidden md:flex flex-col w-[38%] py-8 px-6 ml-20 pl-20 border-l border-slate-600">
                <h2 className="text-4xl font-bold text-gray-900 mb-12 text-gradient">
                   Have a <br />
                   Question?
@@ -95,20 +95,22 @@ const Contact = () => {
                <div className="mt-12">
                   <h3 className="text-xl font-medium mb-4">Phone</h3>
                   <div className="w-64 h-px bg-gray-300 mb-4"></div>
-                  <p className="text-lg">+91-99909962015</p>
+                  <p className="text-lg">+91-888 503 0670</p>
+                  <p className="text-lg">+91-988 526 9630</p>
                </div>
 
                <div className="mt-12">
                   <h3 className="text-xl font-medium mb-4">Email</h3>
                   <div className="w-64 h-px bg-gray-300 mb-4"></div>
-                  <p className="text-lg">AV@innovations.work</p>
+                  <p className="text-lg">Veera562@gmail.com </p>
+                  <p className="text-lg">Anandyedugani1995@gmail.com </p>
                </div>
             </div>
 
             <form
                ref={form}
                onSubmit={sendEmail}
-               className="flex flex-col w-[56%] bg-white shadow-2xl rounded-lg px-6 py-8 mt-8"
+               className="flex flex-col w-[100%] md:w-[56%] bg-white shadow-2xl rounded-lg mx-4 px-4 py-8 mt-8"
             >
                <div className="flex flex-col mb-4">
                   <label className="mb-2 font-medium" htmlFor="fullName">

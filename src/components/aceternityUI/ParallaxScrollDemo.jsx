@@ -56,17 +56,18 @@ export const ParallaxScroll = ({ images, className }) => {
          )}
          ref={gridRef}
       >
-         {/* <div className="hidden sm:flex ">
-            <BackgroundBoxesDemo />
-            <BackgroundBeamsWithCollisionDemo  />
-         </div> */}
-         <div className="pt-20 pb-4 max-w-7xl mx-auto">
-            <h1 className="text-5xl font-bold mb-6 text-gradient ml-14">
-               Explore The Enchanting Ambiance of AVinnovations Coworking Spaces:
+         <div className="hidden sm:flex ">
+            {/* <BackgroundBoxesDemo /> */}
+            <BackgroundBeamsWithCollisionDemo />
+         </div>
+         <div className="pt-20 pb-4 md:max-w-7xl mx-auto">
+            <h1 className="text-5xl font-bold mb-6 text-gradient sm:ml-14">
+               Explore The Enchanting Ambiance of AVinnovations Coworking
+               Spaces:
             </h1>
          </div>
          <div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start  max-w-6xl mx-auto gap-10 pt-6 px-10 backdrop-blur-sm rounded-xl animate-fade-in-up delay-300 border border-gray/80"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start  max-w-6xl mx-auto gap-10 pt-6 px-4 sm:px-10 backdrop-blur-sm rounded-xl animate-fade-in-up delay-300 border border-gray/80"
             ref={gridRef}
          >
             <div className="grid gap-10">
