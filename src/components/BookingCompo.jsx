@@ -51,10 +51,10 @@ const BookingCompo = ({
    ];
 
    return (
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 dotted-pattern">
+      <section className="py-16 px-4 md:pt-24 sm:px-6 lg:px-8 bg-gray-50 dotted-pattern">
          <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
-               <h2 className="text-4xl font-bold text-gray-900 mb-4">
+               <h2 className="text-4xl font-bold text-gray-900 mb-4  underline">
                   {title}
                </h2>
                <p className="text-xl text-gray-600 mb-6">{subtitle}</p>

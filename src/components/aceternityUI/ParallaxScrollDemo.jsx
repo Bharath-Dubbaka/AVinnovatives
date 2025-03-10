@@ -12,7 +12,7 @@ export function ParallaxScrollDemo() {
 }
 
 const images = [
-   "/images/AVseven.jpeg",
+   "/images/AVten.jpg",
    "/images/AVnine.jpg",
    "/images/AVsix.jpeg",
    "/images/AVfour.jpeg",

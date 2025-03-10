@@ -56,10 +56,10 @@ const Hero = () => {
                   <br />
                   The choice is yours.
                </h2>
-               <h1 className="text-6xl font-bold mb-8 animate-fade-in-up delay-100">
+               <h1 className="text-6xl font-bold mb-8 animate-fade-in-up delay-100 underline">
                   Office space
                   <br />
-                  <span className="text-gradient shadow-2xl">your way</span>
+                  <span className="text-gradient text-7xl">your way</span>
                </h1>
 
                {/* Services Grid */}
@@ -80,8 +80,8 @@ const Hero = () => {
                </div>
 
                {/* Search Form */}
-               <div className="w-fit bg-white/10 backdrop-blur-sm py-6 px-12 rounded-xl animate-fade-in-up delay-300 border border-white/20">
-                  <button className="w-[100%] text-[1.3rem] font-bold bg-[linear-gradient(135deg,#9B59B6,#3498DB)] text-white px-8 py-3 rounded-lg transition-all">
+               <div className="w-fit bg-white/10 backdrop-blur-sm py-1 px-1 rounded-xl animate-fade-in-up delay-300 border border-white/20">
+                  <button className="w-[100%] text-[1.3rem] font-bold bg-[linear-gradient(135deg,#9B59B6,#3498DB)] text-white px-6 py-4 rounded-lg transition-all">
                      CONTACT US
                   </button>
                </div>
