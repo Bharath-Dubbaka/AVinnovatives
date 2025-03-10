@@ -11,19 +11,18 @@ const Hero = () => {
       "/images/AVten.jpg",
       "/images/AVnine.jpg",
       "/images/AVeight.jpg",
-      "/images/AVtwo.jpeg",
-      "/images/AVseven.jpeg",
+      "/images/AVone.jpeg",
    ];
 
    useEffect(() => {
       const interval = setInterval(() => {
          setActiveIndex((prev) => (prev + 1) % images.length);
-      }, 3000);
+      }, 1500);
       return () => clearInterval(interval);
    }, [images.length]);
 
    return (
-      <div className="relative h-[600px] w-full overflow-hidden mt-20">
+      <div className="relative h-[620px] w-full overflow-hidden mt-20">
          {/* Image Slides with Next.js Image Optimization */}
          {images.map((img, index) => (
             <div
@@ -33,21 +32,23 @@ const Hero = () => {
                }`}
             >
                <div className="relative w-full h-full">
+                  {/* Update your Image component to ensure high quality for all
+                  images */}
                   <Image
                      src={img}
                      alt={`Workspace ${index + 1}`}
                      fill
-                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                     sizes="100vw" // Use full viewport width since it's a hero image
                      className="object-cover"
                      priority={index === 0} // Prioritize first image load
-                     quality={80}
+                     quality={100} // Apply high quality to all images
                   />
                </div>
             </div>
          ))}
 
          {/* Gradient Overlay */}
-         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />
+         <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-transparent" />
 
          {/* Content - Updated to match image layout */}
          <div className="relative z-10 flex flex-col justify-center h-full text-white px-8 max-w-6xl mx-auto">
@@ -57,7 +58,7 @@ const Hero = () => {
                   <br />
                   The choice is yours.
                </h2>
-               <h1 className="text-6xl font-bold mb-8 animate-fade-in-up delay-100 underline">
+               <h1 className="text-6xl font-bold mb-8 animate-fade-in-up delay-100">
                   Office space
                   <br />
                   <span className="text-gradient text-7xl">your way</span>
@@ -82,12 +83,12 @@ const Hero = () => {
 
                {/* Search Form */}
                {/* <div className="w-fit bg-white/10 backdrop-blur-sm py-1 px-1 rounded-xl animate-fade-in-up delay-300 border border-white/20"> */}
-                  <Link
-                     className="w-[100%] text-[1.3rem] font-bold bg-[linear-gradient(135deg,#9B59B6,#3498DB)] text-white px-6 py-4 rounded-lg transition-all"
-                     href="/contact"
-                  >
-                     CONTACT US
-                  </Link>
+               <Link
+                  className="w-[100%] text-[1.3rem] font-bold bg-[linear-gradient(135deg,#9B59B6,#3498DB)] text-white px-6 py-4 rounded-lg transition-all"
+                  href="/contact"
+               >
+                  Book Now
+               </Link>
                {/* </div> */}
             </div>
          </div>

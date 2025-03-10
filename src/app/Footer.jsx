@@ -118,7 +118,7 @@ const Footer = () => {
                      </li>
                      <li>
                         <Link
-                           href="/Gallery"
+                           href="/gallery"
                            className="text-slate-600 hover:text-slate-900 hover:underline"
                         >
                            Gallery
@@ -171,20 +171,14 @@ const Footer = () => {
                   <h3 className="font-semibold text-slate-900 mb-4">Reach@</h3>
                   <ul className="space-y-3">
                      <li>
-                        <Link
-                           href="/privacypolicy"
-                           className="text-slate-600 hover:text-slate-900"
-                        >
+                        <div className="text-slate-600 hover:text-slate-900">
                            +91-9909900999
-                        </Link>
+                        </div>
                      </li>
                      <li>
-                        <Link
-                           href="/termsandconditions"
-                           className="text-slate-600 hover:text-slate-900"
-                        >
+                        <div className="text-slate-600 hover:text-slate-900">
                            AV@innovations.com
-                        </Link>
+                        </div>
                      </li>
                      {/* <li>
                         <Link
