@@ -48,7 +48,7 @@ const Hero = () => {
          ))}
 
          {/* Gradient Overlay */}
-         <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-transparent" />
+         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent" />
 
          {/* Content - Updated to match image layout */}
          <div className="relative z-10 flex flex-col justify-center h-full text-white px-8 max-w-6xl mx-auto">
