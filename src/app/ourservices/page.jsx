@@ -28,12 +28,12 @@ const Ourservices = () => {
                      needs and fully customisable. Available for as little as a
                      day, or as long as you need.
                   </p>
-                  <Link
-                     href="#contact"
+                  {/* <Link
+                     href="/contact"
                      className="text-purple-600 font-semibold hover:underline"
                   >
                      Find out more →
-                  </Link>
+                  </Link> */}
                </div>
 
                {/* Private Offices Subsection */}
@@ -55,9 +55,12 @@ const Ourservices = () => {
                            </li>
                            <li>For teams of all sizes</li>
                         </ul>
-                        <button className="bg-purple-600 text-white px-6 py-3 rounded-lg bg-[linear-gradient(135deg,#9B59B6,#3498DB)] font-semibold hover:-translate-y-0.5 transition-transform">
+                        <Link
+                           href="/contact"
+                           className="bg-purple-600 text-white px-6 py-3 rounded-lg bg-[linear-gradient(135deg,#9B59B6,#3498DB)] font-semibold hover:-translate-y-0.5 transition-transform"
+                        >
                            Get a quote
-                        </button>
+                        </Link>
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
@@ -120,9 +123,12 @@ const Ourservices = () => {
                            </li>
                            <li>For teams of all sizes</li>
                         </ul>
-                        <button className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition">
+                        <Link
+                           href="/contact"
+                           className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition"
+                        >
                            Book now
-                        </button>
+                        </Link>
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
@@ -180,9 +186,12 @@ const Ourservices = () => {
                               Available at thousands of locations worldwide
                            </li>
                         </ul>
-                        <button className="bg-purple-600 text-white px-6 py-3 rounded-lg bg-[linear-gradient(135deg,#9B59B6,#3498DB)] font-semibold hover:-translate-y-0.5 transition-transform">
+                        <Link
+                           href="/contact"
+                           className="bg-purple-600 text-white px-6 py-3 rounded-lg bg-[linear-gradient(135deg,#9B59B6,#3498DB)] font-semibold hover:-translate-y-0.5 transition-transform"
+                        >
                            Get a quote
-                        </button>
+                        </Link>
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
@@ -251,9 +260,12 @@ const Ourservices = () => {
                               Available at thousands of locations worldwide
                            </li>
                         </ul>
-                        <button className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition">
+                        <Link
+                           href="/contact"
+                           className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition"
+                        >
                            Book now
-                        </button>
+                        </Link>
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
@@ -374,9 +386,12 @@ const Ourservices = () => {
                            </li>
                            <li>Plus access to 5 days of coworking</li>
                         </ul>
-                        <button className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition">
+                        <Link
+                           href="/contact"
+                           className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition"
+                        >
                            Book now
-                        </button>
+                        </Link>
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image
@@ -495,9 +510,12 @@ const Ourservices = () => {
                            </li>
                            <li>Choose from thousands of locations worldwide</li>
                         </ul>
-                        <button className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition">
+                        <Link
+                           href="/contact"
+                           className="bg-gradient-to-br from-red-400 to-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition"
+                        >
                            Book now
-                        </button>
+                        </Link>
                      </div>
                      <div className="relative h-64 rounded-lg overflow-hidden">
                         <Image

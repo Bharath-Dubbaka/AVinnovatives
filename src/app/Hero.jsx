@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
    const [activeIndex, setActiveIndex] = useState(0);
@@ -80,11 +81,14 @@ const Hero = () => {
                </div>
 
                {/* Search Form */}
-               <div className="w-fit bg-white/10 backdrop-blur-sm py-1 px-1 rounded-xl animate-fade-in-up delay-300 border border-white/20">
-                  <button className="w-[100%] text-[1.3rem] font-bold bg-[linear-gradient(135deg,#9B59B6,#3498DB)] text-white px-6 py-4 rounded-lg transition-all">
+               {/* <div className="w-fit bg-white/10 backdrop-blur-sm py-1 px-1 rounded-xl animate-fade-in-up delay-300 border border-white/20"> */}
+                  <Link
+                     className="w-[100%] text-[1.3rem] font-bold bg-[linear-gradient(135deg,#9B59B6,#3498DB)] text-white px-6 py-4 rounded-lg transition-all"
+                     href="/contact"
+                  >
                      CONTACT US
-                  </button>
-               </div>
+                  </Link>
+               {/* </div> */}
             </div>
          </div>
 

@@ -96,9 +96,13 @@ const BookingCompo = ({
                         <div className="border-t border-gray-200 my-4" />
 
                         <div className="flex flex-col gap-3">
-                           <button className="w-full text-white py-2 px-4 rounded-md bg-[linear-gradient(135deg,#9B59B6,#3498DB)] font-semibold hover:-translate-y-0.5 transition-transform">
+                           <Link
+                              href="/contact"
+                              className="w-full text-white py-2 px-4 rounded-md bg-[linear-gradient(135deg,#9B59B6,#3498DB)] font-semibold hover:-translate-y-0.5 transition-transform text-center"
+                           >
                               Get a Quote
-                           </button>
+                           </Link>
+
                            <Link
                               href={`/ourservices#${item.sectionId}`}
                               className="w-full border-2 border-purple-600 text-purple-600 font-semibold hover:bg-purple-50 hover:-translate-y-0.5 py-2 px-4 rounded-md transition-all duration-300 text-center"

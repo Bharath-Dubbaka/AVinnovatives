@@ -7,7 +7,7 @@ const Header = () => {
          <div className="mx-auto px-4">
             <div className="flex items-center space-x-2 justify-between h-[5.3rem]">
                {/* Logo */}
-               <Link href="/" className="flex items-center space-x-2">
+               <Link href="/" className="flex items-center space-x-1 ml-8">
                   <svg
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 200 200"
@@ -59,25 +59,30 @@ const Header = () => {
 
                      {/* AV Letters */}
                      <path
-                        d="M50 70 L50 130 L80 130 L110 70 L110 130"
+                        d="M70 70 L50 130 M70 70 L90 130"
                         fill="none"
                         stroke="#ffffff"
                         strokeWidth="12"
                         strokeLinejoin="round"
+                        strokeLinecap="round"
                      />
                      <path
-                        d="M140 70 L160 130 L180 70"
+                        d="M110 70 L130 130 L150 70"
                         fill="none"
                         stroke="#ffffff"
                         strokeWidth="12"
                         strokeLinecap="round"
+                        strokeLinejoin="round"
                      />
                   </svg>
                   {/* <div className="flex flex-col"> */}
                   <span
                      className={`text-[2.3rem] pb-2 flex justify-end items-baseline font-extrabold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent hover:from-pink-500 hover:via-purple-600 hover:to-indigo-600 transition-all duration-300`}
                   >
-                     <span className="text-[1.5rem]"> innovations</span>
+                     <span className="text-[1.5rem] font-light">
+                        {" "}
+                        innovations
+                     </span>
                      {/* <span className="text-xs text-black font-normal"> */}
                      {/* prod by <span className="font-bold"> CVtoSalary</span> */}
                      {/* </span> */}
